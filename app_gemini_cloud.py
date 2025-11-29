@@ -11,15 +11,15 @@ import pandas as pd
 
 # Page configuration
 st.set_page_config(
-    page_title="Resume Screening Agent (Gemini)",
+    page_title="Resume Screening Agent ",
     page_icon="📄",
     layout="wide"
 )
 
 # Title and description
-st.title("📄 AI Resume Screening Agent (Powered by Gemini)")
+st.title("📄 AI Resume Screening Agent ")
 st.markdown("Upload resumes and provide a job description to get AI-powered candidate rankings")
-st.info("🆓 This version uses Google Gemini API which has a FREE tier!")
+st.info("🆓 This version uses Google Gemini API ")
 
 # Initialize session state
 if 'results' not in st.session_state:
